@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+html {
+	font-family: 'IBM Plex Mono', monospace;
+	scroll-behavior: smooth;
+	background: rgb(26,26,26);
+	height: 100vh;
+	color: white;
+}
+
+.landing .title, .description, .caption {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	-webkit-box-pack: center;
+	   -ms-flex-pack: center;
+	 justify-content: center;
+}
+
+.landing .title, .description {
+	-webkit-animation-name: fadeFly;
+	        animation-name: fadeFly;
+	-webkit-animation-duration: 3s;
+	        animation-duration: 3s;
+}
+
+.landing .caption {
+	margin: 30% 9% 0;
+	-webkit-animation-name: fade;
+	        animation-name: fade;
+	-webkit-animation-duration: 10s;
+	        animation-duration: 10s;
+}
+
+.landing .title {
+	font-size: 6em;
+}
+
+.landing .description {
+	margin-top: 7em;
+}
+
+.landing .scroll {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	align-self: flex-end;
+	text-align: center;
+	grid-column: 2/3;
+	grid-row: 3/3;
+	display: flex;
+	opacity: 0.3;
+	margin: auto;
+	height: 3em;
+	width: 3em;
+}
+
+.content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	   -ms-flex-pack: center;
+	 justify-content: center;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.content .title {
+	background: #fff;
+	color: rgb(26, 26, 26);
+	font-size: 2.307692307692308em;
+}
+
+.content .one {
+	grid-column: 1/4;
+	margin-top: 3em;
+	grid-row: 1/3;
+}
+
+.content .two {
+	grid-column: 1/4;
+	margin-top: 3em;
+	grid-row: 2/3;
+}
+
+.content .three {
+	grid-column: 1/4;
+	margin-top: 3em;
+	grid-row: 3/3;
+}
+
+.wrapper {
+	display: grid;
+	height: 100vh;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 5fr);
+}
+
+@-webkit-keyframes fadeFly {
+	from {
+		color: transparent;
+		margin-top: 1em;
+	}
+}
+
+@keyframes fadeFly {
+	from {
+		color: transparent;
+		margin-top: 1em;
+	}
+}
+
+@-webkit-keyframes fade {
+	from {
+		color: transparent;
+	}
+}
+
+@keyframes fade {
+	from {
+		color: transparent;
+	}
+}

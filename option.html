@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SABAKO PRODUCTS</title>
+		<link rel="icon" href="assets/images/sdev.png">
+		<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<nav class="sidebar">
+				<div class="row">
+					<img src="assets/images/sdev.png">
+				</div>
+				<div class="row">
+					<a href="products.html"><img src="assets/images/icons/receipt.svg"></a>
+				</div>
+				<div class="row">
+					<a href=""><img src="assets/images/icons/store.svg"></a>
+				</div>
+				<div class="row">
+					<a href="inventory.html"><img src="assets/images/icons/inventory-management.svg"></a>
+				</div>
+				<div class="row">
+					<a href="option.html"><img src="assets/images/icons/settings.svg"></a>
+				</div>
+			</nav>
+			<div class="row left">
+				<form id="preferences">
+					<div class="setting">
+						<span class="title">Preferences</span>
+					</div>
+					
+					<div class="setting">
+						Density:
+						
+						<div class="select-wrapper">
+							<select name="density">
+								<option value="0">Compact</option>
+								<option value="1">Cozy</option>
+							</select>
+						</div>
+					</div>
+					
+					<div class="setting">
+						Theme:
+						
+						<div class="select-wrapper">
+							<select name="theme">
+								<option value="dark">Dark</option>
+								<option value="light">Light</option>
+							</select>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="footer">
+				<span>SABAKO © <span id="year"></span> IndieDev</span>
+			</div>
+		</div>
+		<script type="application/javascript" src="script.js"></script>
+	</body>
+</html>

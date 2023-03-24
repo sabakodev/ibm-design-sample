@@ -1,0 +1,61 @@
+[
+	{
+		"name": "Espresso",
+		"img": "1024px-Doppio.jpg",
+		"price": 0.99
+	},
+	{
+		"name": "Latte",
+		"img": "800px-Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg",
+		"price": 2.99,
+		"variant": [
+			"Vanilla",
+			"Hazelnut"
+		]
+	},
+	{
+		"name": "Omurice",
+		"img": "1024px-Cutopen-local-shop-omurice-with-ketchup-Japan-nov2014.jpg",
+		"price": 8.99
+	},
+	{
+		"name": "Black",
+		"img": "1024px-A_small_cup_of_coffee.JPG",
+		"price": 1.49
+	},
+	{
+		"name": "Spaghetti",
+		"img": "1024px-Spaghetti_carbonara_-_Trishhhh.jpg",
+		"price": 19.75
+	},
+	{
+		"name": "Aglio",
+		"img": "1024px-Spaghetti_di_Gragnano_e_colatura_di_alici.jpg",
+		"price": 21.99
+	},
+	{
+		"name": "Sandwich",
+		"img": "1024px-Egg_and_cheese_breakfast_sandwich.jpg",
+		"price": 6.99
+	},
+	{
+		"name": "Water",
+		"img": "Stilles_Mineralwasser.jpg",
+		"price": 0.99
+	},
+	{
+		"name": "Beer",
+		"img": "800px-Sapporo-Kuro-Label_2007_Arima_Memorial.JPG",
+		"price": 7.99
+	},
+	{
+		"name": "Yakitori",
+		"img": "1024px-Muroran_Yakitori.jpg",
+		"price": 10.99
+	},
+	{
+		"name": "Curry",
+		"img": "1024px-Curry_rice_by_Hyougushi_in_Kyoto.jpg",
+		"price": 20.99
+	}
+]
